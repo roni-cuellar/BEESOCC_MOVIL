@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_suave">
+
+    <LinearLayout
+        android:id="@+id/faseContenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/Etiqueta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ESTRUCTURA DEPORTIVA" />
+        <TextView android:id="@+id/faseNombre" style="@style/TituloPagina" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/faseDetalle" style="@style/SubtituloPagina" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" />
+
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton android:id="@+id/fasePrevisualizar" style="@style/BotonVerde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Previsualizar" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/faseConfirmar" style="@style/BotonVerde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Confirmar" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/faseCalendario" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Generar calendario" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/faseClasificar" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Clasificar" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/faseAuditoria" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Auditoría" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/faseRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="16dp" />
+            <include
+                android:id="@+id/estado"
+                layout="@layout/view_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_suave">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/Etiqueta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ACCESO RÁPIDO" />
+        <TextView style="@style/TituloPagina" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="¿Cómo quieres entrar?" />
+        <TextView style="@style/SubtituloPagina" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:text="Elige el rol con el que vas a trabajar." />
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Tarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:contentPadding="18dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Administrador" android:textSize="17sp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Crea ligas, equipos, jugadores y calendarios." android:textColor="@color/gris" android:textSize="13sp" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/rolAdmin" style="@style/BotonVerde" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Ir a mis ligas" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Tarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:contentPadding="18dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Árbitro" android:textSize="17sp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Revisa tus partidos asignados y levanta el acta." android:textColor="@color/gris" android:textSize="13sp" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/rolArbitro" style="@style/BotonVerde" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Ir a mis arbitrajes" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Tarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="18dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Espectador" android:textSize="17sp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Consulta campeonatos publicados y resultados." android:textColor="@color/gris" android:textSize="13sp" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/rolEspectador" style="@style/BotonVerde" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Ver campeonatos" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

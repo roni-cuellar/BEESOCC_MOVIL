@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BEESOCC</string>
+    <string name="app_subtitulo">Gestión deportiva en un solo lugar</string>
+    <string name="cargando">Cargando…</string>
+    <string name="vacio">No hay datos para mostrar.</string>
+    <string name="error_generico">No se pudo completar la operación.</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="buscar">Buscar</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="volver">Volver</string>
+    <string name="sin_conexion">No se pudo conectar. Revisa la URL de la API y tu red.</string>
+</resources>

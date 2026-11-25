@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/estadoContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:visibility="gone">
+
+    <ProgressBar
+        android:id="@+id/estadoProgress"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:indeterminateTint="@color/verde"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/estadoVacio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/isotipo_beesocc"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:text="@string/vacio"
+        android:textColor="@color/gris"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/estadoError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/error_generico"
+        android:textColor="@color/error"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/estadoReintentar"
+        style="@style/BotonBorde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/reintentar"
+        android:visibility="gone" />
+</LinearLayout>

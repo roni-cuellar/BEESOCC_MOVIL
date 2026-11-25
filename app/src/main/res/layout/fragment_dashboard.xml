@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_suave">
+
+    <ScrollView
+        android:id="@+id/dashboardContenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/verde_oscuro"
+                app:cardCornerRadius="20dp"
+                app:contentPadding="20dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView style="@style/Etiqueta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PANEL DEL CAMPEONATO" android:textColor="@color/verde_claro" />
+                    <TextView android:id="@+id/dashboardNombre" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/blanco" android:textSize="22sp" android:textStyle="bold" />
+                    <TextView android:id="@+id/dashboardEstado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/verde_claro" android:textSize="13sp" />
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:orientation="horizontal">
+                        <TextView android:id="@+id/dashboardCodigoTexto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textColor="@color/blanco" android:textSize="13sp" />
+                        <com.google.android.material.button.MaterialButton android:id="@+id/dashboardCodigo" style="@style/BotonBlanco" android:layout_width="wrap_content" android:layout_height="40dp" android:minHeight="40dp" android:text="Copiar código" />
+                    </LinearLayout>
+                    <TextView android:id="@+id/dashboardCifras" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/blanco" android:textSize="13sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView style="@style/Etiqueta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="CICLO DEL CAMPEONATO" />
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashRequisitos" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_marginTop="8dp" android:text="Requisitos" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashIniciar" style="@style/BotonVerde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="8dp" android:text="Iniciar liga" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashFinalizar" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_marginTop="4dp" android:text="Finalizar liga" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashAuditoria" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="4dp" android:text="Auditoría" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashPublicar" style="@style/BotonVerde" android:layout_width="match_parent" android:layout_columnSpan="2" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Publicar" />
+            </GridLayout>
+
+            <TextView style="@style/Etiqueta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="MÓDULOS" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashEquipos" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_marginTop="8dp" android:text="Equipos" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashJugadores" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="8dp" android:text="Jugadores" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashArbitros" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_marginTop="4dp" android:text="Árbitros" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashPartidos" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="4dp" android:text="Partidos" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashCalendario" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_marginTop="4dp" android:text="Calendario" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashTabla" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="4dp" android:text="Tabla" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashEstadisticas" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginEnd="6dp" android:layout_marginTop="4dp" android:text="Estadísticas" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashGrupos" style="@style/BotonBorde" android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginTop="4dp" android:text="Grupos" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/dashEliminacion" style="@style/BotonBorde" android:layout_width="match_parent" android:layout_columnSpan="2" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Cuadro eliminatorio" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/estado"
+        layout="@layout/view_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</FrameLayout>

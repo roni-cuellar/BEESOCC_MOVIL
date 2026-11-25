@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_acceso.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_acceso.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\view_state.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\view_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_ajustes.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_ajustes.xml"
+    },
+    {
+        "merged": "com.beesocc.mobile.app-mergeDebugResources-36:/layout/item_lista.xml",
+        "source": "com.beesocc.mobile.app-main-39:/layout/item_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_form.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_roles.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_roles.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\item_campo_spinner.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_partido.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_partido.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_lista.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_fase.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_fase.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\fragment_inicio.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\item_campo_texto.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_texto.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\item_campo_imagen.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_imagen.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\item_campo_switch.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-mergeDebugResources-36:\\layout\\item_lista.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_lista.xml"
+    }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="verde">#16A34A</color>
+    <color name="verde_oscuro">#0F3D2E</color>
+    <color name="verde_hover">#175339</color>
+    <color name="verde_claro">#A4D7B5</color>
+    <color name="verde_suave">#E8F5EC</color>
+    <color name="texto">#111827</color>
+    <color name="gris">#6B7280</color>
+    <color name="borde">#E5E7EB</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="fondo_suave">#F5F8F6</color>
+    <color name="error">#B91C1C</color>
+    <color name="error_suave">#FEF2F2</color>
+    <color name="advertencia">#F59E0B</color>
+    <color name="transparente">#00000000</color>
+    <color name="negro_30">#4D000000</color>
+</resources>

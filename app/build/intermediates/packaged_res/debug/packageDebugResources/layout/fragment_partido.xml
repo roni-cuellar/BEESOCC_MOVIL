@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_suave">
+
+    <LinearLayout
+        android:id="@+id/partidoContenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/verde_oscuro"
+            app:cardCornerRadius="18dp"
+            app:contentPadding="18dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView style="@style/Etiqueta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ACTA DEL PARTIDO" android:textColor="@color/verde_claro" />
+                <TextView android:id="@+id/partidoTitulo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/blanco" android:textSize="19sp" android:textStyle="bold" />
+                <TextView android:id="@+id/partidoMarcador" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/blanco" android:textSize="30sp" android:textStyle="bold" />
+                <TextView android:id="@+id/partidoEstado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/verde_claro" android:textSize="13sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="10dp">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoEvento" style="@style/BotonVerde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Registrar evento" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoPanel" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Ver panel" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoPreparar" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Preparar panel" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoReloj" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Reloj" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoIniciar" style="@style/BotonVerde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Iniciar" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoFinalizar" style="@style/BotonVerde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Finalizar" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoEstadoBoton" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Cambiar estado" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoCorrecciones" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Correcciones" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/partidoActualizar" style="@style/BotonBorde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:text="Actualizar" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/partidoRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="16dp" />
+            <include
+                android:id="@+id/estado"
+                layout="@layout/view_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

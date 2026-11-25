@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="advertencia">#F59E0B</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="borde">#E5E7EB</color>
+    <color name="error">#B91C1C</color>
+    <color name="error_suave">#FEF2F2</color>
+    <color name="fondo_suave">#F5F8F6</color>
+    <color name="gris">#6B7280</color>
+    <color name="negro_30">#4D000000</color>
+    <color name="texto">#111827</color>
+    <color name="transparente">#00000000</color>
+    <color name="verde">#16A34A</color>
+    <color name="verde_claro">#A4D7B5</color>
+    <color name="verde_hover">#175339</color>
+    <color name="verde_oscuro">#0F3D2E</color>
+    <color name="verde_suave">#E8F5EC</color>
+    <item name="contenedor" type="id"/>
+    <item name="tag_imagen" type="id"/>
+    <string name="aceptar">Aceptar</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="app_name">BEESOCC</string>
+    <string name="app_subtitulo">Gestión deportiva en un solo lugar</string>
+    <string name="buscar">Buscar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cargando">Cargando…</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="error_generico">No se pudo completar la operación.</string>
+    <string name="guardar">Guardar</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="sin_conexion">No se pudo conectar. Revisa la URL de la API y tu red.</string>
+    <string name="vacio">No hay datos para mostrar.</string>
+    <string name="volver">Volver</string>
+    <style name="BotonBlanco" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/blanco</item>
+        <item name="android:textColor">@color/verde_oscuro</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="BotonBorde" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/borde</item>
+        <item name="android:textColor">@color/texto</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="BotonVerde" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/verde_oscuro</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="Etiqueta">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/verde_oscuro</item>
+    </style>
+    <style name="SubtituloPagina">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gris</item>
+    </style>
+    <style name="Tarjeta">
+        <item name="cornerRadius">14dp</item>
+        <item name="cardBackgroundColor">@color/blanco</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+    <style name="Theme.BEESOCC" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/verde_oscuro</item>
+        <item name="colorPrimaryDark">@color/verde_oscuro</item>
+        <item name="colorAccent">@color/verde</item>
+        <item name="android:colorBackground">@color/fondo_suave</item>
+        <item name="android:textColorPrimary">@color/texto</item>
+        <item name="android:textColorSecondary">@color/gris</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/verde_oscuro</item>
+        <item name="android:navigationBarColor">@color/verde_oscuro</item>
+    </style>
+    <style name="TituloPagina">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/verde_oscuro</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+</resources>

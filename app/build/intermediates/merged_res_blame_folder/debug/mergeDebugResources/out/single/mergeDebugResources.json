@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_item_campo_texto.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_texto.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable_ic_inicio.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable\\ic_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable-nodpi_isotipo_beesocc.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable-nodpi\\isotipo_beesocc.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\menu_menu_bottom.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\menu\\menu_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_item_lista.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_fase.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_fase.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable_ic_ajustes.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable\\ic_ajustes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable_ic_ligas.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable\\ic_ligas.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable_ic_flecha.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable\\ic_flecha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_partido.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_partido.xml"
+    },
+    {
+        "merged": "com.beesocc.mobile.app-debug-37:/layout_item_lista.xml.flat",
+        "source": "com.beesocc.mobile.app-main-39:/layout/item_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable_fondo_campo.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable\\fondo_campo.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_lista.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\color_selector_nav.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\color\\selector_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_form.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_item_campo_switch.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_acceso.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_acceso.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable-nodpi_logo_beesocc.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable-nodpi\\logo_beesocc.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_inicio.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable-nodpi_logo_beesocc_claro.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable-nodpi\\logo_beesocc_claro.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\drawable_ic_consulta.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\drawable\\ic_consulta.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_view_state.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\view_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_roles.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_roles.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_item_campo_imagen.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_imagen.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_item_campo_spinner.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\item_campo_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\layout_fragment_ajustes.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\layout\\fragment_ajustes.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-debug-37:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\8.9\\com.beesocc.mobile.app-main-39:\\mipmap-hdpi\\ic_launcher.png"
+    }
+]
